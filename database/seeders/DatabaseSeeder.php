@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => fake()->name,
             'email' => fake()->email,
-            'cpf' => '12345678909',
+            'cpf' => '12345678900',
         ]);
     }
 }
